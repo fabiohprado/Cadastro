@@ -5,10 +5,10 @@ namespace Cadastro
     class Tela
     {
         public string nome { get; set; }
-        public int cpf { get; set; }
+        public double cpf { get; set; }
         public string endereco { get; set; }
 
-        public Tela(string nome, int cpf, string endereco)
+        public Tela(string nome, double cpf, string endereco)
         {
             this.nome = nome;
             this.cpf = cpf;
@@ -20,9 +20,9 @@ namespace Cadastro
         {
             return "Nome: "
                 + nome
-                + "CPF: "
+                + ", CPF: "
                 + cpf
-                + "Endereco: "
+                + ", Endereco: "
                 + endereco;
         }
 

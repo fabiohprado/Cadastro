@@ -1,0 +1,7 @@
+C:\Users\fabio\source\repos\Cadastro\Cadastro\bin\Debug\Cadastro.exe.config
+C:\Users\fabio\source\repos\Cadastro\Cadastro\bin\Debug\Cadastro.exe
+C:\Users\fabio\source\repos\Cadastro\Cadastro\bin\Debug\Cadastro.pdb
+C:\Users\fabio\source\repos\Cadastro\Cadastro\obj\Debug\Cadastro.csprojAssemblyReference.cache
+C:\Users\fabio\source\repos\Cadastro\Cadastro\obj\Debug\Cadastro.csproj.CoreCompileInputs.cache
+C:\Users\fabio\source\repos\Cadastro\Cadastro\obj\Debug\Cadastro.exe
+C:\Users\fabio\source\repos\Cadastro\Cadastro\obj\Debug\Cadastro.pdb

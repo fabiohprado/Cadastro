@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+using System.Globalization;
 namespace Cadastro
 {
     class Program
@@ -17,17 +13,18 @@ namespace Cadastro
             Console.Write("Nome: ");
             string nome = Console.ReadLine();
             Console.Write("CPF: ");
-            int cpf = int.Parse(Console.ReadLine());
+            double cpf = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
             Console.Write("Endereco: ");
             string endereco = Console.ReadLine();
 
             C = new Tela(nome, cpf, endereco);
 
-            Console.ReadKey();
             Console.Clear();
 
             Console.WriteLine("Informacoes adicionadas sao: ");
+            Console.Write(C);
 
+            Console.ReadLine();
             
         }
     }
